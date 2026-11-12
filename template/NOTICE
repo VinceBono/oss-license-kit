@@ -1,0 +1,9 @@
+{{PROJECT}}
+Copyright (c) {{YEAR}} {{OWNER}}
+
+Licensed under the GNU Affero General Public License v3.0 (see LICENSE),
+or under a commercial license from {{OWNER}} (see COMMERCIAL.md).
+
+"{{PROJECT}}" and associated logos are trademarks of {{OWNER}}. The
+licenses above grant no rights to use these marks; forks must use a
+different name.

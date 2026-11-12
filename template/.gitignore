@@ -1,0 +1,75 @@
+# --- secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*.tfvars
+!*.tfvars.example
+*.tfstate*
+credentials.json
+service-account*.json
+id_rsa*
+id_ed25519*
+
+# --- models / weights ---
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.keras
+*.pkl
+*.pickle
+*.joblib
+*.gguf
+*.ggml
+*.tflite
+*.engine
+weights/
+checkpoints/
+
+# --- data ---
+data/
+datasets/
+*.parquet
+*.feather
+*.arrow
+*.npy
+*.npz
+*.tfrecord
+*.sqlite*
+*.db
+
+# --- experiment tracking ---
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# --- private ---
+private/
+secrets/
+
+# --- tooling ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+target/
+node_modules/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
